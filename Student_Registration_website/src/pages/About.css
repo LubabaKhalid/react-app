@@ -1,0 +1,51 @@
+.about-section {
+    height: 100vh;
+    background: linear-gradient(135deg, #f9f9f9, #e0e0e0);
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #333;
+  }
+  
+  .about-section h2 {
+    font-size: 36px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .about-section .highlight {
+    font-weight: bold;
+    color: #1f4863;
+    font-style: italic;
+  }
+  
+  .about-section button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #537891, #6c91b3);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-section button:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #6c91b3, #537891);
+  }
+  

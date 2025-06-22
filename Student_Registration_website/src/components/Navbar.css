@@ -1,0 +1,24 @@
+.nav-button {
+  padding: 15px 25px;
+  margin: 15px;
+  background: linear-gradient(135deg, #537891, #6c91b3);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 5px 15px rgba(146, 196, 236, 0.2);
+  transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(91, 128, 146, 0.3);
+  background: linear-gradient(135deg, #6c91b3, #537891);
+}
+
+.nav-button:active {
+  transform: scale(0.98);
+  box-shadow: 0 3px 10px rgba(53, 59, 64, 0.096);
+}
